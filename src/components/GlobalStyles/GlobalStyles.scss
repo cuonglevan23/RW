@@ -1,18 +1,20 @@
 @import 'normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;400;700;900&display=swap');
 
 :root {
     --primary: #007a33;
+    --secondary-color: #78be21;
     --black: #000;
     --white: #fff;
     --text-color: #161823;
-    --secondary-color: #78be21;
     --font-family: 'ProximaNova', sans-serif;
 
     // Default layout
     --default-layout-header-height: 60px;
     --default-layout-width: 1150px;
     --default-layout-horizontal-spacer: 24px;
+    --headline-line-height: 24px;
+    --headline-font-size: 16px;
 }
 
 * {

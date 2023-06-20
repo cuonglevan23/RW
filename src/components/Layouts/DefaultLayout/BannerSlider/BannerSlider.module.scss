@@ -1,5 +1,13 @@
-.wrapper {
+.banner-wrapper {
+    position: relative;
     width: 100%;
-    min-height: 1000px;
-    background-color: #ccc;
+    height: 100vh; /* Đặt chiều cao là 100% chiều cao của viewport */
+}
+
+.banner-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

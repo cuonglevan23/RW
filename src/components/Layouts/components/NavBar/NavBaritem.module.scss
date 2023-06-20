@@ -1,0 +1,39 @@
+.nav-item {
+    position: relative; /* Thêm thuộc tính position: relative */
+    width: 82px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 16px;
+}
+
+.nav-link {
+    color: var(--text-color);
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 540;
+    line-height: 16px;
+    font-family: 'Overpass SemiBold 600', sans-serif;
+}
+
+.nav-menu {
+    height: 121px;
+}
+
+.nav-item::after {
+    content: '';
+    position: absolute; /* Thay đổi từ 'relative' thành 'absolute' */
+    width: 100%;
+    height: 4px;
+    background-color: var(--primary);
+    bottom: 0; /* Thay đổi từ '33px' thành '0' */
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.nav-item:hover::after {
+    opacity: 1;
+}

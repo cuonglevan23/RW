@@ -1,0 +1,8 @@
+.dropdown-item {
+    align-items: center;
+    display: flex; /* Thay đổi từ 'inline-flex' thành 'flex' */
+    color: inherit;
+    min-width: 145px;
+    cursor: pointer;
+    height: 40px;
+}

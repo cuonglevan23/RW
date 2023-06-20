@@ -1,3 +1,4 @@
+import React from 'react';
 import classNames from 'classnames/bind';
 import styles from './BannerSlider.module.scss';
 
@@ -5,9 +6,9 @@ const cx = classNames.bind(styles);
 
 function BannerSlider() {
     return (
-        <aside className={cx('wrapper')}>
-            <h2>BannerSlider Page</h2>
-        </aside>
+        <div className={cx('banner-wrapper')}>
+            <div className={cx('banner-slider')}>{/* Các slide trong Banner Slider */}</div>
+        </div>
     );
 }
 

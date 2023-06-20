@@ -1,4 +1,3 @@
-import { HeaderOnly } from '~/components/Layouts';
 // Page
 import Home from '~/pages/Home';
 import Login from '~/pages/Login';
@@ -7,7 +6,7 @@ import Search from '~/pages/Search';
 // public routes
 const publicRoutes = [
     { path: '/', components: Home },
-    { path: '/login', components: Login, layout: HeaderOnly },
+    { path: '/login', components: Login },
     { path: '/profile', components: Profile },
     { path: '/search', components: Search, layout: null },
 ];
