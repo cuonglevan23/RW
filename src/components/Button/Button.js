@@ -3,14 +3,13 @@ import styles from './Button.module.scss';
 
 const cx = classNames.bind(styles);
 
-function Button() {
+function Button({ to, herf, children, onClick }) {
+    let Comp = 'button';
+    const classes = cx('Wrapper');
     return (
-        <div className={cx('action')}>
-            <span className={cx('action-SignInLinktext')}>Sign In</span>
-            <span className={cx('action-SignUp')}>
-                <button className={cx('action-SignUp-btn')}>Get Started</button>
-            </span>
-        </div>
+        <Comp classNames={classes}>
+            <span>{children}</span>
+        </Comp>
     );
 }
 

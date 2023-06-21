@@ -3,7 +3,7 @@
     width: 100%;
     top: 70px;
     left: 50%;
-    height: 121px;
+    min-height: 121px;
     transform: translate(-50%);
     padding: 40px 45px;
     border-bottom: 1px solid rgb(236, 239, 241);
@@ -81,6 +81,21 @@
     color: rgba(17, 51, 83, 0.6);
     line-height: 14px;
 }
+.colum-wrapper {
+    background: rgb(255, 255, 255);
+}
+.dropdown-list-column {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 60px;
+    grid-gap: 10px;
+}
+.dropdown-list-item-column {
+    margin-right: 18px;
+    margin-top: 2px;
+    padding: 10px 10px;
+}
 .inneritem-wrapper {
     display: inline-flex;
 }
@@ -96,4 +111,24 @@
 .text-headline {
     font-weight: 500;
     line-height: 16px;
+}
+.description-column {
+    padding-top: 10px;
+    flex: 1 1 0%;
+    max-width: 320px;
+}
+.dropdown_headlinelight {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.trapdoordescriptioncolumn_bodytext {
+    margin-top: 8px;
+}
+.trapdoordescriptioncolumn_styledlink {
+    display: inline-flex;
+    margin-top: 22px;
+    color: var(--primary);
+    text-decoration: none;
 }
