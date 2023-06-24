@@ -43,7 +43,7 @@ function Dropdown({ dropdownType }) {
                                     <DropdownItem>
                                         <span className={cx('inneritem-wrapper')}>
                                             <svg
-                                                class={cx('chevron-icon')}
+                                                className={cx('chevron-icon')}
                                                 width="8"
                                                 height="11"
                                                 fill="none"
@@ -64,7 +64,7 @@ function Dropdown({ dropdownType }) {
                                     <DropdownItem>
                                         <span className={cx('inneritem-wrapper')}>
                                             <svg
-                                                class={cx('chevron-icon')}
+                                                className={cx('chevron-icon')}
                                                 width="8"
                                                 height="11"
                                                 fill="none"
@@ -85,7 +85,7 @@ function Dropdown({ dropdownType }) {
                                     <DropdownItem>
                                         <span className={cx('inneritem-wrapper')}>
                                             <svg
-                                                class={cx('chevron-icon')}
+                                                className={cx('chevron-icon')}
                                                 width="8"
                                                 height="11"
                                                 fill="none"
@@ -106,7 +106,7 @@ function Dropdown({ dropdownType }) {
                                     <DropdownItem>
                                         <span className={cx('inneritem-wrapper')}>
                                             <svg
-                                                class={cx('chevron-icon')}
+                                                className={cx('chevron-icon')}
                                                 width="8"
                                                 height="11"
                                                 fill="none"
@@ -128,7 +128,7 @@ function Dropdown({ dropdownType }) {
                                     <DropdownItem>
                                         <span className={cx('inneritem-wrapper')}>
                                             <svg
-                                                class={cx('chevron-icon')}
+                                                className={cx('chevron-icon')}
                                                 width="8"
                                                 height="11"
                                                 fill="none"
@@ -149,7 +149,7 @@ function Dropdown({ dropdownType }) {
                                     <DropdownItem>
                                         <span className={cx('inneritem-wrapper')}>
                                             <svg
-                                                class={cx('chevron-icon')}
+                                                className={cx('chevron-icon')}
                                                 width="8"
                                                 height="11"
                                                 fill="none"

@@ -31,29 +31,38 @@
     display: flex;
     cursor: pointer;
 }
-
-.action-SignInLinktext {
-    margin: 12px 20px;
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 5px;
 }
-.action-SignInLinktext:hover {
-    color: var(--primary);
+
+.action-btn-heart {
+    position: relative;
+    display: flex;
+    font-size: 2.2rem;
+    color: #696969;
+    background-color: transparent;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-style: none;
+    &:hover {
+        color: #ffc0cb;
+    }
 }
 
-.action-SignUp-btn {
-    width: 150px;
-    align-items: center;
-    appearance: none;
-    white-space: nowrap;
-    background-color: var(--primary);
-    background-size: calc(100% + 40px) calc(100% + 40px);
-    border-radius: 40px;
-    border-width: 0;
-    box-shadow: none;
-    box-sizing: border-box;
-    color: var(--white);
-    display: inline-flex;
-    font-family: 'Overpass Medium 500', sans-serif;
-    font-size: 1.8rem;
-    height: 35px;
-    justify-content: center;
+.action-btn-notifi {
+    position: relative;
+    display: flex;
+    font-size: 2.2rem;
+    color: #696969;
+    background-color: transparent;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-style: none;
+    &:hover {
+        color: #363636;
+    }
 }

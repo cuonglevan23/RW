@@ -34,23 +34,23 @@ export const Crypto2 = ({ width = '40px', height = '40px', className }) => (
         <path
             transform="translate(16,16)"
             fill="#FFFFFF"
-            fill-rule="evenodd"
+            fillRule="evenodd"
             d="M14 20a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm0 0a6 6 0 0 1 6 6v6H8v-6a6 6 0 0 1 6-6Z"
-            clip-rule="evenodd"
+            clipRule="evenodd"
         />
         <path
             transform="translate(16,16)"
             fill="#0A0B0D"
-            fill-rule="evenodd"
+            fillRule="evenodd"
             d="M44 24v16H28V24a8 8 0 1 1 16 0Z"
-            clip-rule="evenodd"
+            clipRule="evenodd"
         />
         <path
             transform="translate(16,16)"
             fill="#FFFFFF"
-            fill-rule="evenodd"
+            fillRule="evenodd"
             d="m41.277 21.277-7.137 7.137-3.207-3.207 1.414-1.414 1.793 1.793 5.723-5.723 1.414 1.414Z"
-            clip-rule="evenodd"
+            clipRule="evenodd"
         />
     </svg>
 );

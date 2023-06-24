@@ -13,9 +13,9 @@
     text-align: center;
     text-decoration: none;
     font-size: 14px;
-    font-weight: 540;
+    font-weight: 550;
     line-height: 16px;
-    font-family: 'Overpass SemiBold 600', sans-serif;
+    font-family: var(--font-family-nav);
 }
 
 .nav-item::after {
