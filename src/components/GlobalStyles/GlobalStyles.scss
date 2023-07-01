@@ -1,22 +1,37 @@
 @import 'normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;400;700;900&display=swap');
 
 :root {
     --primary: #007a33;
     --secondary-color: #78be21;
+    --primary-wash: rgb(245, 248, 255);
     --black: #000;
     --white: #fff;
+    --background-alternate: rgb(238, 240, 243);
     --text-color: #161823;
+    --foreground: rgb(10, 11, 13);
+    --foreground-muted: rgb(91, 97, 110);
 
-    --font-family: 'Overpass Regular 400', sans-serif;
-
+    --font-family: 'CoinbaseSans', sans-serif;
+    --display1-font-size: 64px;
+    --display1-line-height: 72px;
+    --display2-font-size: 34px;
+    --display2-line-height: 44px;
+    --display2-frontier-font-size: 48px;
+    --display2-frontier-line-height: 56px;
     // Default layout
     --default-layout-header-height: 60px;
     --default-layout-width: 1150px;
     --default-layout-horizontal-spacer: 24px;
-    --headline-line-height: 24px;
-    --headline-font-size: 16px;
-    --headline-font-weight: 600;
+
+    --spacing-2: 16px;
+    --spacing-3: 24px;
+    --spacing-4: 32px;
+    --spacing-5: 40px;
+    --spacing-6: 48px;
+    --spacing-7: 56px;
+    --spacing-8: 64px;
+    --spacing-9: 72px;
+    --spacing-10: 80px;
 }
 
 * {
@@ -52,4 +67,75 @@ html *::-webkit-scrollbar-thumb {
 html *::-webkit-scrollbar-track {
     border-radius: 0;
     background-color: rgba(0, 0, 0, 0);
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+// Fonts emmbeded
+@font-face {
+    font-family: CoinbaseSans;
+    src: url('~/src/assets/font/1afb81123baff3ee.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: CoinbaseSans;
+    src: url('~/src/assets/font/05d2153dba2045ba.woff2');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: CoinbaseSans;
+    src: url('~/src/assets/font/04385265cb71a9e1.woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: CoinbaseSans;
+    src: url('~/src/assets/font/ad7693bb415d25ef.woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: CoinbaseSans;
+    src: url('~/src/assets/font/b5b83cdb4e0c5af3.woff2');
+    font-weight: 700;
+}
+@font-face {
+    font-family: CoinbaseSans;
+    src: url('~/src/assets/font/ec8b63007fcc272a.woff2');
+    font-weight: 700;
+}
+
+// Custom tippy tooltip
+body {
+    .tippy-box {
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        background-color: rgba(84, 84, 84, 0.92);
+    }
+
+    .tippy-arrow {
+        color: rgba(84, 84, 84, 0.92);
+    }
+
+    .tippy-content {
+        padding: 8px 9px;
+    }
+
+    .tippy-box[data-placement^='bottom'] > .tippy-arrow:before {
+        top: -8px;
+    }
 }

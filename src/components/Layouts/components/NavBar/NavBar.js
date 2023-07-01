@@ -43,7 +43,7 @@ function NavBar() {
                     onMouseEnter={handleDropdownOpen}
                     onMouseLeave={handleDropdownClose}
                 >
-                    {activeDropdown === 'product' && <Dropdown dropdownType="product" />}
+                    {activeDropdown === 'product'}
                 </NavBarItem>
                 <NavBarItem
                     link="Support"

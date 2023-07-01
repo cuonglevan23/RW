@@ -12,10 +12,11 @@
     color: var(--text-color);
     text-align: center;
     text-decoration: none;
-    font-size: 14px;
-    font-weight: 550;
+
+    font-weight: 500;
     line-height: 16px;
-    font-family: var(--font-family-nav);
+    line-height: 16px;
+    font-family: var(--font-family);
 }
 
 .nav-item::after {

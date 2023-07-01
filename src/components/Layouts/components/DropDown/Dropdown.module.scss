@@ -11,6 +11,7 @@
     justify-content: center;
     overflow: hidden;
     z-index: 2; /* Giá trị z-index cao hơn */
+    background: rgb(255, 255, 255);
 }
 
 .dropdown-list {
@@ -70,7 +71,7 @@
 }
 
 .dropdown-head {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 550;
     line-height: 16px;
 }
@@ -79,7 +80,7 @@
     margin-top: 4px;
     display: block; /* Thay đổi từ 'inline-block' thành 'block' */
     color: rgba(17, 51, 83, 0.6);
-    line-height: 14px;
+    line-height: 16px;
 }
 .colum-wrapper {
     background: rgb(255, 255, 255);

@@ -4,10 +4,10 @@
     align-items: center;
 }
 .container {
+    padding-top: 10px;
     width: var(--default-layout-width);
 }
 .content {
     flex: 1;
-    background-color: #ccc;
     min-height: 1000px;
 }

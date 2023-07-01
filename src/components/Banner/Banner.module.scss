@@ -1,0 +1,109 @@
+.section-styles {
+    overflow: hidden;
+    max-width: 100%;
+    padding-left: 56px;
+    padding-right: 56px;
+
+    background: rgb(255, 255, 255);
+}
+.section-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.left-section-content {
+    flex: 1 1 0%;
+}
+.right-section-content {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 24px;
+    flex: 2 1 0%;
+
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+.header {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.15;
+}
+.description {
+    color: var(--primary);
+    font-weight: 500;
+
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    flex-direction: row;
+    .icon {
+        margin: 8px 8px 8px 8px;
+    }
+}
+.text-element {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 32px;
+}
+.contain-email {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.email-form {
+    display: flex;
+    width: 100%;
+}
+.input-container {
+    position: relative;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(91, 97, 110, 0.2);
+    border-radius: 1px;
+    transition: all 0.15s ease 0s;
+    background: rgb(var(--primary));
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+}
+.input-email {
+    z-index: 0;
+    flex: 1 1 0px;
+    margin: 0px;
+    padding: 20px 20px;
+    border-radius: 3px;
+    background: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.button-container {
+    padding: 24px 24px;
+    margin-left: 16px;
+    border-radius: 1px;
+    background-color: var(--primary);
+    cursor: pointer;
+    transition: all 80ms ease-in-out 0s;
+    font-size: 16px;
+}
+.button-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--primary);
+    color: rgb(255, 255, 255);
+    pointer-events: none;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    block-size: 18px;
+    font-weight: 500;
+}
+.img-content {
+    min-width: 400px;
+    object-fit: contain;
+    overflow: clip;
+    height: 534px;
+}
